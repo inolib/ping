@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "include": ["."],
+  "compilerOptions": {
+    "allowJs": false,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "strict": true
+  }
+}
