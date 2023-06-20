@@ -26,10 +26,17 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
   rules: {
+    "no-void": "off",
     "import/order": "off",
     "prettier/prettier": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "react-hooks/exhaustive-deps": [
+      "warn",
+      {
+        additionalHooks: "(useFrameProcessor)",
+      },
+    ],
     "testing-library/prefer-user-event": "off",
   },
   settings: {

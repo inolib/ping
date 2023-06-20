@@ -8,5 +8,13 @@ module.exports = (api) => {
       "@babel/preset-typescript",
       "babel-preset-expo",
     ],
+    plugins: [
+      [
+        "react-native-reanimated/plugin",
+        {
+          globals: ["__scanOCR"],
+        },
+      ],
+    ],
   };
 };

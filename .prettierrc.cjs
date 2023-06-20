@@ -12,8 +12,6 @@ module.exports = {
     "",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^~",
-    "",
     "^\\.",
   ],
   importOrderTypeScriptVersion: "4.0.0",
